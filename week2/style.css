@@ -14,7 +14,7 @@ h1 {
     letter-spacing: 5vw;
     font-size: 3rem;
     margin-bottom: 0.1rem;
-    animation: type 4s;
+    animation: type 5s;
 }
 
 @keyframes type {
