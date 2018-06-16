@@ -14,6 +14,16 @@ h1 {
     letter-spacing: 5vw;
     font-size: 3rem;
     margin-bottom: 0.1rem;
+    animation: type 4s;
+}
+
+@keyframes type {
+    from {
+      transform: scale(0.25);
+    }
+    to {
+      transform: scale(1);
+    }
 }
 
 h2 {
