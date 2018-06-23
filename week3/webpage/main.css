@@ -84,7 +84,9 @@ body {
   position: absolute;
   margin-left: 3%;
   z-index:98;
-  bottom:140px; 
+  bottom:170px;
+  left:-20px;
+  font-size : 0.8em;
 }
 
 .topTask .searchForm {
@@ -93,7 +95,7 @@ body {
   position: absolute;
   margin-left: 65%;
   z-index:97;
-  bottom:330px; 
+  bottom:380px; 
 }
 
 .editorialNavigation {
