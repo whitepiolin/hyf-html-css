@@ -1,0 +1,394 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  width: 100%;
+  font-size: 0.9em;
+  font-family: "RO Sans",Calibri,sans-serif;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height:120%;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+.logo img {    
+  display: inline-block; 
+}
+
+#blueNavBar  {
+  background-color: #01689b;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  height:60px;
+  align-items: center;
+}
+
+#blueNavBar * {
+  color:white;
+  text-decoration: none;
+  padding:10px;
+}
+
+.homeButton:nth-child(1) {
+  font-size: 1.4em;
+  margin-right:100px;
+}
+
+.topTask .img1 {
+  position:relative;
+  width:100%;
+  z-index: 0;
+  height:280px;
+}
+
+.topTask .topTaskNavigation {
+  background:white;
+  color: #01689b;
+  z-index: 10;
+  padding-right: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  position: absolute;
+  margin-top:-260px;
+  width: 23%;
+  min-width:350px;
+  max-height: 250px;
+  overflow: auto;
+  margin-left: 11%;
+  line-height: 1.5em;
+}
+
+.topTask .topTaskNavigation li a {
+  text-decoration: none;
+  color: #01689b;
+  font-weight: bold;
+}
+
+.topTask .copyright {
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px gray;
+  position: absolute;
+  margin-left: 3%;
+  z-index:98;
+  bottom:140px; 
+}
+
+.topTask .searchForm {
+  background-color: transparent;
+  color:black;
+  position: absolute;
+  margin-left: 65%;
+  z-index:97;
+  bottom:330px; 
+}
+
+.editorialNavigation {
+  top:0;
+  background-color: rgb(240, 240, 240);
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fourItems {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  margin:auto;
+}
+
+.navItem {
+  color:black;
+  line-height: 1.5em;
+  width: 20%;
+  overflow:visible;
+  margin:1%;
+}
+
+.content h2, a {
+  color: #01689b;
+  text-decoration: none;
+}
+
+.content p {color:black;}
+
+.fullWidthSection {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width:100%;
+}
+
+.brickRowSpotLight {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  width:100%;
+  margin-top: 50px;
+}
+
+.brick {
+  width: 25%;
+  margin: 1%;
+}
+
+.brick a img { 
+  width: 100%;
+  z-index:0;
+  position:relative;
+}
+
+.brick a .copyright {
+  background-color: transparent;
+  color: white;
+  position: absolute;
+  margin-left: 1%;
+  z-index:5;
+  margin-top: 180px;
+}
+
+.brickRowNieuws {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:100%;
+  margin-top: 0px;
+}
+
+.brickRowNieuws h2 {clear: both;}
+
+.fullWidthSection h2 {margin-left:10%;}
+
+.brickRowNieuws .publDate {font-weight: bold;}
+
+.brickRowNieuws .publDate, p {color:black;}
+
+.more {
+  margin-left: 10%;
+  color: #01689b;
+  font-weight: bold;
+}
+
+#aside {
+  display:flex;
+  flex-direction: row;
+  margin-left: 10%
+}
+
+.stijl01 {
+  fill: #FFFFFF;
+  stroke: #CBD2E3;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+
+.stijl02 {
+  fill: #111111;
+  font-size: 23px;
+  font-family: "RO Sans", Calibri, Verdana, sans-serif;
+}
+                                                                  
+.stijl03 {
+  fill: #a90061;
+  font-weight: bold;
+  font-size: 31px;
+  font-family: "RO Sans", Calibri, Verdana, sans-serif;
+}
+
+#footer {
+  background-color: #01689b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+  padding-left: 10%;
+  padding-right:10%;
+  color: white;
+}
+
+.column ul, li {
+  color:white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.column ul li a {
+  color:white;
+  text-align: left;
+  line-height: 1.5em;
+}
+
+.column h2 {
+  font-weight: bold;
+  font-size: 1em;
+  display:block;
+  padding-left: 40px;
+}
+
+.column:nth-of-type(3) {margin-right: 20%;}
+
+.payoff {
+  font-family: "RO Serif";
+  font-style: italic;
+  font-weight: normal;
+  line-height: 1.2381;
+  padding-top:25px;
+  margin-right:20%;
+  font-size: 1.25em;
+}
+
+.languages ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.languages ul li {
+  border: 1px solid #b2d7ee;
+  margin:1%;
+  padding:5px;
+  color: #007bc7;
+  font-size: 0.9em;
+}
+
+.languages ul li:nth-of-type(1) {
+  border: none;
+  margin:1%;
+  padding:5px;
+  color: black;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+#searchForm .searchSubmit {
+  height: 40px;
+  width: 48px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  line-height: 1px;
+  text-align: center;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#searchForm .searchInput {
+  background-color: rgb(255, 255, 255);
+  color: gray;
+  height: 40px;
+  margin: 0;
+  z-index: 10;
+  padding: 0 80px 0 10px;
+}
+
+#searchButton {width:20px; height:20px;}
+
+@media (min-width: 481px) and (max-width: 756px){
+  .copyright {display: none;}
+  #searchForm {display:none;}
+  .fourItems { flex-wrap: wrap; }
+  .navItem {
+    width: 40%;
+    overflow:auto;
+  }
+
+  .brickRowSpotLight {
+    display:flex;
+    flex-direction: column;
+    margin-left:10%;
+    
+  }
+  
+  .brick {
+    width: 80%;
+    margin: 1%;
+    justify-content: center;
+  }
+  
+  .brick a img { 
+    width: 100%;
+    z-index:0;
+    position:relative;
+  }
+
+  .payoff {margin-left: 20%;}
+}
+    
+@media (min-width: 100px) and (max-width: 481px) {
+
+  #blueNavBar {display:none;}
+  #searchForm {display:none;}
+  .topTask .topTaskNavigation {
+    width: 75%;
+    min-width: 200px;
+    padding:0;
+    padding-right: 30px;
+    font-size: 0.8em;
+  }
+
+  .fourItems {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .navItem {
+    width: 80%;
+    overflow:auto;
+    margin:1%;
+  }
+
+.copyright {display: none;}
+
+.brickRowSpotLight {
+  display:flex;
+  flex-direction: column;
+  margin-left:10%; 
+  }
+
+.brick {
+  width: 80%;
+  margin: 1%;
+  }
+
+.brick a img { 
+  width: 100%;
+  z-index:0;
+  position:relative;
+  }
+
+.payoff {text-align: center;}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  }
+
+.languages ul {
+  display: flex;
+  flex-wrap: wrap;
+  }
+}
