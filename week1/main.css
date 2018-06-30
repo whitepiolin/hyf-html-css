@@ -13,6 +13,21 @@ main {
     text-shadow: 0.5px 0.5px 0.5px gray;   
 }
 
+spanstyle {
+    font-weight: bold; 
+    font-style: italic;
+}
+
+img1style {
+    margin-right: 10px; 
+    width: 25px;
+}
+
+img2style {
+    margin-right: 10px;
+    width: 50px;
+}
+
 @media screen and (min-width:600px) {
     header { 
         position: relative;
@@ -156,7 +171,7 @@ nav a {text-decoration: none;}
 
 .button:hover {background-color: rgb(223, 223, 223);}
 
-.sections {
+main {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
