@@ -147,15 +147,15 @@ nav a , footer a {
 
 @media screen and (min-width:650px) {
     header {
-        position: absolute;
-        text-align: center;
-        left: 250px;
+        float: right;
+        width: 60% ;
+        text-align: left;      
         margin-bottom: 50px;        
     }
     
-    header p:nth-of-type(1) {margin-left: -65%;}
-    header p:nth-of-type(2) {margin-left: -40%;}
-    header p:nth-of-type(3) {margin-left: -25%;}
+    header p:nth-of-type(1) {padding-left:50px;}
+    header p:nth-of-type(2) {padding-left:100px;}
+    header p:nth-of-type(3) {padding-left:220px;}
     
     section {margin-bottom: 50px;}
 
